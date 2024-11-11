@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    width: 940px;
+    height: 60px;
+    left: 250px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+
+}
+
+header nav ul:nth-child(2) {
+    position: relative;
+    display: inline-block;
+    width: 183px;
+    height: 60px;
+    left: 757px;
+    padding: 19px 20px 21px 20px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    word-spacing: 10-px;
+}
+
+header ul:nth-child(2) li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 0 10px;
+    position: relative;
+    top: -25px;
+}
+
+header ul:nth-child(1) li a {
+    font-size: 25px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    top: 10px;
+}
+
+.section1 {
+    width: 100%;
+    height: 594px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url(./9fd6d2d3dfccae187e38d4c3b5571ba9.jpg);
+    background-repeat: no-repeat;
+
+
+
+}
+
+.section1 p {
+    font-size: 59px;
+    letter-spacing: 4px;
+    text-align: center;
+    position: relative;
+    color: white;
+    position: relative;
+    top: 155px;
+
+}
+
+.section1 .button {
+    width: 940px;
+    height: 45px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 290px;
+    left: 170px;
+
+}
+
+section .button button:nth-child(1) {
+    width: 138px;
+    height: 45px;
+    border-radius: 7px;
+    opacity: 0px;
+    background: #69B9FF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin: 15px;
+    letter-spacing: 2px;
+    animation-duration: 0.3s;
+}
+
+section .button button:nth-child(2) {
+    width: 183px;
+    height: 43px;
+    gap: 10px;
+    border-radius: 7px;
+    border: 1px solid white;
+    opacity: 0px;
+    background: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    animation-duration: 0.3s;
+}
+section .button button:hover:nth-child(1){
+    background: rgb(55, 162, 255);
+
+}
+
+
+section .button button:active {
+    transform: scale(1.1);
+
+}
+
+article {
+    width: 100%;
+
+
+}
+
+article .card_wrapper {
+    width: 960px;
+    height: 290.78px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+article .card_wrapper .card {
+    width: 300px;
+    height: 291px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #DCEBF7;
+    border-radius: 5px;
+}
+
+article .card_wrapper .card img {
+    background: #69B9FF;
+    margin: 40px 0 0 0;
+}
+
+article .card_wrapper .card h2 {
+    letter-spacing: 5px;
+    margin-top: 15px;
+    color: #676770;
+    margin-top: 15px;
+}
+
+article .card_wrapper .card p {
+    color: #6A859C;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+article .text h1 {
+    margin-top: 50px;
+    color: #676770;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+article .text p {
+    color: #8E8E9C;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.section2 {
+    width: 100%;
+    background: #192024;
+    height: 842px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section2 .text {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    top: 40px;
+}
+
+.section2 .text h1 {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+.section2 .text p {
+    position: relative;
+    top: 20px;
+    color: #E8E8E8;
+    margin-top: 15px;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+
+.section2 .card_wrapper {
+    width: 960px;
+    height: 550.23px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section2 .card {
+    width: 460px;
+    height: 550px;
+    margin-top: 60px;
+    position: relative;
+    display: inline-block;
+}
+
+.section2 .card img {
+    width: 430px;
+    height: 287px;
+
+}
+
+.section2 .card_wrapper .card h2 {
+    line-height: 30px;
+    letter-spacing: 7px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.section2 .card_wrapper .card p {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
+
+.section2 .card_wrapper .card button {
+    width: 183px;
+    height: 43px;
+    margin-top: 40px;
+    background: none;
+    border: 1px solid #ffffff;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    opacity: 70%;
+    transition-duration: 0.3s;
+}
+
+.section2 .card_wrapper .card button:hover {
+    opacity: 100%;
+}
+
+.section2 .card_wrapper .card button:active {
+    transform: scale(1.1);
+}
